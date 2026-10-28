@@ -1,8 +1,8 @@
 
 FROM python:3.12-slim
 
-WORKDIR /jenkins
+WORKDIR /hello
 
-COPY jen.py .
+COPY hello.py .
 
-CMD ["python", "jen.py"]
+CMD ["python", "hello.py"]
